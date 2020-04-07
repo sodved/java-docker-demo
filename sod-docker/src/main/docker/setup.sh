@@ -1,7 +1,7 @@
 #!/bin/sh -ue
 
 echo "=======================  SETUP  =============================="
-echo "Java version: $(java -version)"
+echo "Java version: $(java -version 2>&1)"
 echo "Creating sod.txt"
-echo java -jar /sod-java.jar
+java -jar /sod-java-*.jar
 echo "=============================================================="
